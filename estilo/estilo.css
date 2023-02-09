@@ -1,18 +1,15 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #c4c1c1;
+    background-color: #c4c8c8;
     margin: 50px 30px;
 }
 
 div .icon p {
     font-size: x-small;
-
 }
 
 #container {
     background-color: #c4c1c1;
-    height: 90%;
-    width: 90%;
     display: flex;
     flex-wrap: wrap;
 }
