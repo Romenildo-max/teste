@@ -1,45 +1,61 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #c4c1c1;
-    margin: 100px 30px;
+    margin: 50px 30px;
 }
 
-span {
-    color: #c4c1c1;
+div .icon p {
+    font-size: x-small;
+
+}
+
+#container {
+    background-color: #c4c1c1;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 ul {
     list-style: none; /*para tirar a ordem da lista ex:1,2,3 ou as bolinhas da frente para lista nao ordenadas*/
-    margin: 0;/*Sempre zerar o MARGIN*/
-    padding: 0;/*Sempre zerar o PADDING*/
 }
 
-ul a { /* Seletor poderia ser tambem (li a)*/
-    width: 70px;/*Largura centinhaude da imagem*/
-    height: 70px;/*Altura centinha da imagem*/
-    display: block; /* para trocar o elemento inline (tamanho do conteudo, as vezes tela inteira, e não dar para definir altura e largura) em block (até acabar o conteudo, porem dar para definir uma largura(WIDTH) e altura (HEIGHT)*/
+ul a { /* Seletor poderia ser tambem (li a) */
     color: #000;
     text-decoration: none;
-    text-align: center;
+}
+
+div .lista {
+    height: 0 auto;
+    width: 0 auto;
+    margin: 10px;
     background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
     border-radius: 5px;
 }
 
-a:hover {
-    background-color:#c4c1c1; /* Caso a imagem não carregue uma cor de fundo para aparece*/
-    color: #fff;
-    text-decoration: none;
+div .icon {
+    text-align: center;
+    padding-top: 10px;
 }
 
-
-li {
-    padding: 5px 20px;
+a:hover {
+    color: #c4c1c1;
+    text-decoration: none;
 }
 
 img {
     border-radius: 5px;
-    width: 20em;
     height: 20em;
+    width: 20em;
+}
+
+div .container-foto {
+    box-sizing: border-box;
+    overflow: hidden;
+    border: solid red 1px;
 }
 
 div .informacoes {
@@ -47,12 +63,10 @@ div .informacoes {
     text-align: center;
 }
 
-div .informacoes i {
+div .informacoes i{
     color: #000;
 }
 
-div .container{
-    background-color: #fff;
-    padding: 10px -1px;
-    
-}
+
+
+
