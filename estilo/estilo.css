@@ -13,12 +13,15 @@ div .icon p {
     display: flex;
 }
 
+
 ul a {
     color: #000;
     text-decoration: none;
 }
 
 div .lista {
+    height: auto;
+    width: 50%;
     text-align: center;
     margin: 10px;
     background: #fff;
@@ -39,15 +42,16 @@ a:hover {
 
 img {
     border-radius: 5px;
-    height: 20em;
-    width: 20em;
+    height: auto;
+    width: 26em;
 }
 
 div .container-foto {
-    grid-auto-rows: auto;
+    height: 110%;
     box-sizing: border-box;
     overflow: hidden;
     border: solid red 1px;
+    position: relative;
 }
 
 div .informacoes {
@@ -59,6 +63,7 @@ div .informacoes {
 div .informacoes i{
     color: #000;
 }
+
 
 
 
