@@ -1,7 +1,70 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #c4c8c8;
-    margin: 50px 30px;
+    overflow-x: hidden;
+}
+
+.navbar-nav .nav-link {
+    color:#fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #c4c1c1;
+}
+
+.navbar-togller {
+}
+
+.grid {
+    display: grid;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.grid-template-columns-3 {
+    grid-template-columns: 50px 3fr 50px;
+}
+
+.item {
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div .item h1 {
+    margin: 5px;
+    text-align: center;
+    font-size: 0.50em;
+}
+
+div .item h3 {
+    margin: 5px;
+    text-align: center;
+    font-size: 0.50em;
+}
+
+/************************************/
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.btn-custom {
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.btn-lista {
+    background-color: #fff;
+}
+
+.btn-lista:hover {
+    background-color: #c4c1c1;
 }
 
 div .informacoes h1 {
@@ -56,9 +119,10 @@ img {
 }
 
 div .container-foto {
-    box-sizing: border-box;
-    overflow: hidden;
+    width: 105%;
+    height: 105%;
     border: solid red 1px;
+    flex-grow: 1;
 }
 
 div .informacoes {
