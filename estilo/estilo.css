@@ -1,7 +1,9 @@
-body {
+body, html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #c4c8c8;
-    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-nav .nav-link {
@@ -23,7 +25,7 @@ body {
 }
 
 .grid-template-columns-3 {
-    grid-template-columns: 25px 1fr 25px;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .item {
@@ -39,11 +41,13 @@ div .item h1 {
 }
 
 div .item h3 {
-    margin: 5px;
     text-align: center;
     font-size: 0.50em;
 }
 
+nav.navbar-transparente {
+    width: 150%;
+}
 
 /************************************/
 
@@ -114,10 +118,10 @@ a:hover {
     text-decoration: none;
 }
 
-img {
-    border-radius: 5px;
-    height: 26em;
-    width: 26em;
+div .caixa {
+    background-color: #000;
+    height: 20px;
+    width: 20px;
 }
 
 div .container-foto {
