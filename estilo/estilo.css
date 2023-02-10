@@ -11,21 +11,15 @@ div .icon p {
 #container {
     background-color: #c4c1c1;
     display: flex;
-    flex-wrap: wrap;
 }
 
-ul {
-    list-style: none; /*para tirar a ordem da lista ex:1,2,3 ou as bolinhas da frente para lista nao ordenadas*/
-}
-
-ul a { /* Seletor poderia ser tambem (li a) */
+ul a {
     color: #000;
     text-decoration: none;
 }
 
 div .lista {
-    height: 0 auto;
-    width: 0 auto;
+    text-align: center;
     margin: 10px;
     background: #fff;
     overflow: hidden;
@@ -50,6 +44,7 @@ img {
 }
 
 div .container-foto {
+    grid-auto-rows: auto;
     box-sizing: border-box;
     overflow: hidden;
     border: solid red 1px;
@@ -58,6 +53,7 @@ div .container-foto {
 div .informacoes {
     margin: 20px 20px;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 div .informacoes i{
