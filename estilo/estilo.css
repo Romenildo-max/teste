@@ -19,10 +19,11 @@ body {
     display: grid;
     margin: 0 auto;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .grid-template-columns-3 {
-    grid-template-columns: 50px 3fr 50px;
+    grid-template-columns: 25px 1fr 25px;
 }
 
 .item {
@@ -42,6 +43,7 @@ div .item h3 {
     text-align: center;
     font-size: 0.50em;
 }
+
 
 /************************************/
 
