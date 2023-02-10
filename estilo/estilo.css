@@ -62,7 +62,6 @@ h1 {
     color: #fff;
     border-radius: 5px;
     text-transform: uppercase;
-    padding: 10px 20px;
 }
 
 .btn-lista {
@@ -101,7 +100,6 @@ div .lista {
     height: auto;
     width: 50%;
     text-align: center;
-    margin: 10px;
     background: #fff;
     overflow: hidden;
     box-sizing: border-box;
