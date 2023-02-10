@@ -4,6 +4,10 @@ body {
     margin: 50px 30px;
 }
 
+div .informacoes h1 {
+    font-size: x-large;
+}
+
 div .icon p {
     font-size: x-small;
 }
@@ -13,13 +17,18 @@ div .icon p {
     display: flex;
 }
 
-
-ul a {
+ul#navegacao a {
     color: #000;
     text-decoration: none;
 }
 
+div .list {
+    width: 80%;
+    height: 80%;
+}
+
 div .lista {
+    padding: 0;
     height: auto;
     width: 50%;
     text-align: center;
@@ -42,16 +51,14 @@ a:hover {
 
 img {
     border-radius: 5px;
-    height: auto;
+    height: 26em;
     width: 26em;
 }
 
 div .container-foto {
-    height: 110%;
     box-sizing: border-box;
     overflow: hidden;
     border: solid red 1px;
-    position: relative;
 }
 
 div .informacoes {
