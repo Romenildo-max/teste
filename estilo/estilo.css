@@ -64,7 +64,7 @@ ul.navbar-nav li {
 }
 
 ul.navbar-nav a {
-    display: block;
+    display: inline-block;
     padding: 0 2em;
     line-height: 2.2em;
     color: #fff;
