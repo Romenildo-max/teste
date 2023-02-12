@@ -52,15 +52,6 @@ h1 {
     color: #000;
 }
 
-.menu {
-    list-style: none;
-    float: left;
-}
-
-.menu li {
-    position: relative;
-    float: left;
-}
 
 ul.navbar-nav {
     margin: 0px;
