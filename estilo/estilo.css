@@ -56,15 +56,9 @@ ul.navbar-nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    float: left;
-}
-
-ul.navbar-nav li {
-    float:left;
 }
 
 ul.navbar-nav a {
-    display: inline-block;
     padding: 0 2em;
     line-height: 2.2em;
     color: #fff;
