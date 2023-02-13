@@ -61,6 +61,7 @@ ul.navbar-nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    border: solid red 1px;
 }
 
 ul.navbar-nav a {
