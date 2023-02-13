@@ -24,6 +24,16 @@ button.navbar-toggler {
     align-items: center;
 }
 
+.grid-template-columns-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    align-items: center;
+    font-size: 40%;
+    width: 100%;
+}
+
 .item {
     margin: 5px;
     text-align: center;
@@ -57,12 +67,13 @@ h1 {
     color: #000;
 }
 
+/* configuranções da nav-bar as lista
 ul.navbar-nav {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    border: solid red 1px;
 }
+/*
 
 ul.navbar-nav a {
     padding: 0 2em;
@@ -156,10 +167,9 @@ div .informacoes i{
 
 
 
-/******************
-@media (min-width: 575px) and (max-width: 1200px) {
-    .lista {
-        text-align: center;
+
+@media (min-width: 575px) {
+    header {
+        display: none;
     }
 }
-*/
