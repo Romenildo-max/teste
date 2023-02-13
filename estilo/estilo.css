@@ -42,6 +42,11 @@ div .item h3 {
     text-align: left;
 }
 
+div .icon {
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 h1 {
@@ -150,3 +155,10 @@ div .informacoes i{
 
 
 
+/******************
+@media (min-width: 575px) and (max-width: 1200px) {
+    .lista {
+        text-align: center;
+    }
+}
+*/
