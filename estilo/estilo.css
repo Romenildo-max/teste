@@ -2,9 +2,10 @@
 body, html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #c4c8c8;
-    margin: 15px;
+    margin: 15px; /*corregir
     padding: 15px;
     overflow: hidden;
+    */
 }
 
 .grid {
