@@ -22,22 +22,16 @@ button.navbar-toggler {
     overflow: hidden;
     padding: 0;
     align-items: center;
-}
-
-.grid-template-columns-5 {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    box-sizing: border-box;
-    overflow: hidden;
-    padding: 0;
-    align-items: center;
-    font-size: 40%;
-    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 2px;
+    width: 99%;
 }
 
 .item {
     margin: 5px;
     text-align: center;
     font-size: 1.5em;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 div .item h1 {
@@ -65,6 +59,22 @@ h1 {
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: #000;
+}
+
+.grid-template-columns-5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    align-items: center;
+    font-size: 40%;
+    width: 99%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+} 
+
+a.nav-link {
+    color: #000;
+    text-decoration: none;
 }
 
 /* configuranções da nav-bar as lista
@@ -110,8 +120,7 @@ div .icon p {
 }
 
 ul#navegacao a {
-    color: #000;
-    text-decoration: none;
+    
 }
 
 div .list {
