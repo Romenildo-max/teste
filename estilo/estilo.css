@@ -11,38 +11,6 @@ body {
     overflow: hidden;
 }
 
-.grid {
-    display: grid;
-}
-
-.grid-template-columns-3 {
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    overflow: hidden;
-    padding: 0;
-    align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    margin: 2px;
-    width: 99%;
-}
-
-.item {
-    margin: 5px;
-    text-align: center;
-    font-size: 1.5em;
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-div .item h1 {
-    margin: auto;
-    text-align: left;
-    font-size: 0.50em;
-}
-
-div .item h3 {
-    margin: auto;
-    font-size: 0.50em;
-    text-align: left;
-}
 
 div .icon {
     margin: 0 auto;
@@ -59,15 +27,7 @@ h1 {
     color: #000;
 }
 
-.grid-template-columns-5 {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    overflow: hidden;
-    padding: 0;
-    align-items: center;
-    font-size: 40%;
-    width: 99%;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-} 
+
 
 a.nav-link {
     color: #000;
