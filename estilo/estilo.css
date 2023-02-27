@@ -24,7 +24,9 @@ body {
 .column-1 {
     flex-grow: 0.15;
     max-width: 15%;
-    padding: 20px;
+    border: none;
+    background-color: #6B51BD;
+    box-shadow: none;
 }  
 
 .column-2 {
